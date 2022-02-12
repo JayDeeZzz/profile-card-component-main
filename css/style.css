@@ -31,7 +31,7 @@ span{ color:var(--darkgray)!important; font-weight: 400;  }
 	height: 100%;
 }
 .container{ width: 350px;  }
-#card{ background: #fff;  border-radius: 15px; }
+#card{ background: #fff;  border-radius: 15px; box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;}
 .banner{ background: url('../images/bg-pattern-card.svg'); border-radius: 15px 15px 0 0; height: 150px; }
 .avatar{width: 100px; position: relative; bottom: -100px; margin:0 auto;  }
 .avatar img{ border-radius: 50%; border: 5px solid #fff; }
