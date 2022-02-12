@@ -1,49 +1,102 @@
 *{
-	margin: 0;
-padding: 0;
+     margin: 0;
+     padding: 0;
 }
-:root{
-	--darkcyan: hsl(185, 75%, 39%);
-	--verydarkblue: hsl(229, 23%, 23%);
-	--darkgrayishblue: hsl(227, 10%, 46%);
-	--darkgray: hsl(0, 0%, 59%);
+ :root{
+     --darkcyan: hsl(185, 75%, 39%);
+     --verydarkblue: hsl(229, 23%, 23%);
+     --darkgrayishblue: hsl(227, 10%, 46%);
+     --darkgray: hsl(0, 0%, 59%);
 }
-html, body{
-height: 100%;
+ html, body{
+     height: 100%;
 }
-body{font-family: 'Kumbh Sans', sans-serif;
-font-size: 18px;
-
-background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
-background-color: var(--darkcyan);
-background-position: top -30rem left 0rem, bottom -30rem right 0rem;
-background-repeat: no-repeat;
-color: var(--darkgrayishblue);
-font-weight: 400;
+ body{
+    font-family: 'Kumbh Sans', sans-serif;
+     font-size: 18px;
+     background-image: url('../images/bg-pattern-top.svg'), url('../images/bg-pattern-bottom.svg');
+     background-color: var(--darkcyan);
+     background-position: top -30rem left 0rem, bottom -30rem right 0rem;
+     background-repeat: no-repeat;
+     color: var(--darkgrayishblue);
+     font-weight: 400;
 }
-
-h1{  margin-bottom: 0.3em; color: var(--verydarkblue); font-size: 1em; }
-span{ color:var(--darkgray)!important; font-weight: 400;  }
-#main{
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	height: 100%;
+ h1{
+     margin-bottom: 0.3em;
+     color: var(--verydarkblue);
+     font-size: 1em;
 }
-.container{ width: 350px;  }
-#card{ background: #fff;  border-radius: 15px; box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;}
-.banner{ background: url('../images/bg-pattern-card.svg'); border-radius: 15px 15px 0 0; height: 150px; }
-.avatar{width: 100px; position: relative; bottom: -100px; margin:0 auto;  }
-.avatar img{ border-radius: 50%; border: 5px solid #fff; }
-.info{ text-align: center; margin-bottom: 30px; margin-top: 70px;}
-.location{ font-size: 0.8em; }
-.stats{ display: flex; justify-content: center; align-items: center; border-top: 1px solid  rgba(106, 111, 129 ,0.2); font-size: 0.6em;  }
-.stats div{ padding: 30px; text-align: center;  letter-spacing: 0.1em; justify-content: space-between;  }
-.stats strong{ font-size: 1.8em!important; color: var(--verydarkblue); letter-spacing: 0;}
-    .attribution { font-size: 11px; text-align: center;  color: #fff; position: absolute; bottom: 0;}
-    .attribution a { color: var(--darkgrayishblue); }
-    @media only screen and (max-width: 390px) {
-    	body{
-    		background-position: top -30rem left -47rem, bottom -30rem right -47rem;
-    	}
+ span{
+     color:var(--darkgray)!important;
+     font-weight: 400;
+}
+ #main{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100%;
+}
+ .container{
+     width: 350px;
+}
+ #card{
+     background: #fff;
+     border-radius: 15px;
+     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+ .banner{
+     background: url('../images/bg-pattern-card.svg');
+     border-radius: 15px 15px 0 0;
+     height: 150px;
+}
+ .avatar{
+    width: 100px;
+     position: relative;
+     bottom: -100px;
+     margin:0 auto;
+}
+ .avatar img{
+     border-radius: 50%;
+     border: 5px solid #fff;
+}
+ .info{
+     text-align: center;
+     margin-bottom: 30px;
+     margin-top: 70px;
+}
+ .location{
+     font-size: 0.8em;
+}
+ .stats{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-top: 1px solid rgba(106, 111, 129 ,0.2);
+     font-size: 0.6em;
+}
+ .stats div{
+     padding: 30px;
+     text-align: center;
+     letter-spacing: 0.1em;
+     justify-content: space-between;
+}
+ .stats strong{
+     font-size: 1.8em!important;
+     color: var(--verydarkblue);
+     letter-spacing: 0;
+}
+ .attribution {
+     font-size: 11px;
+     text-align: center;
+     color: #fff;
+     position: absolute;
+     bottom: 0;
+}
+ .attribution a {
+     color: var(--darkgrayishblue);
+}
+ @media only screen and (max-width: 390px) {
+     body{
+         background-position: top -30rem left -47rem, bottom -30rem right -47rem;
+    }
 }
